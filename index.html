@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Trusty Calculator</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <main>
+    <main class="calculator">
         <h1>Our Trusty  Calculator</h1>
 
-        <h2></h2>
+        <input type="text" class="calculator-screen" value='0' disabled />
 
-        <section id="buttongrid">
-            <div class="circle">1</div>
-            <div class="circle">2</div>
-            <div class="circle">3</div>
-            <div class="circle">+</div>
-            <div class="circle">4</div>
-            <div class="circle">5</div>
-            <div class="circle">6</div>
-            <div class="circle">-</div>
-            <div class="circle">7</div>
-            <div class="circle">8</div>
-            <div class="circle">9</div>
-            <div class="circle">*</div>
-            <div class="circle">0</div>
-            <div class="circle">.</div>
-            <div class="circle">/</div>
-            <div class="circle">=</div>
-        </section>
+        <div id="buttongrid">
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">*</button>
+            <button type="button" class="operator" value="/">/</button>   
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" value="0">0</button>
+            <button type="button" class="decimal function" value=".">.</button>
+            <button type="button" class="all-clear function" value="all-clear">AC</butto>
+            <button type="button" class="equal-sign operator" value="=">=</button>
+        </div>
 
 
     </main>
